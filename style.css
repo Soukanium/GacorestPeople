@@ -15,18 +15,22 @@ h1 {
     justify-content: center;
 }
 
+.container {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     height: 100%;
+}
+
 .join-button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #4CAF50;
-            color: white;
-            padding: 15px 30px;
-            font-size: 20px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: background 0.3s;
+       background-color: #4CAF50;
+       color: white;
+       padding: 15px 30px;
+       font-size: 20px;
+       border: none;
+       border-radius: 8px;
+       cursor: pointer;
+       transition: background 0.3s;
 }
 .join-button:hover {
             background-color: #45a049;
