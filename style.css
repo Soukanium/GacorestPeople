@@ -14,3 +14,17 @@ h1 {
     text-align: center;
     justify-content: center;
 }
+
+.join-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+}
+.join-button:hover {
+            background-color: #45a049;
+}
